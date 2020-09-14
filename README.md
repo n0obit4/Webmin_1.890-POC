@@ -33,7 +33,7 @@ python3 Webmin_exploit.py -host target -port 10000 -cmd id
 ## Usage
 
 ```bash
-$ python3 POC.py -host target -port 10000 -cmd id
+$ python3 Webmin_exploit.py -host target -port 10000 -cmd id
 ```
 ## Demostration
 
